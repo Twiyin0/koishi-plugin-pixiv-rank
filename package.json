@@ -1,0 +1,32 @@
+{
+  "name": "koishi-plugin-pixiv-rank",
+  "description": "",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "contributors": [
+    "Twiyin0 <twiyin0@outlook.com>"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "基于HibiAPI可以搜索p站图片与排行榜的建议p站插件",
+      "zh": "a plugin based on HibiAPI can search illusts and view rank in pixiv"
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "pixiv"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.14.0"
+  }
+}
